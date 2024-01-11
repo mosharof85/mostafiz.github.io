@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+
+.container{
+    background-color: #005051;
+    height: 100vh;
+}
+
+.container .inner{
+    max-width: 1200px;
+    padding: 80px 20px;
+    margin: 0 auto  ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.header img{
+    filter: brightness(0) invert(1);
+}
+
+.title{
+    font-size: 50px;
+    margin-bottom: 3rem;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.name{
+    font-size: 25px;
+}
+
+.address{
+    line-height: 2rem;
+    font-size: 20px;
+}
+
+.email {
+    font-size: 20px;
+}
